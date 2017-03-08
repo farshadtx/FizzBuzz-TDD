@@ -1,4 +1,4 @@
-# FizzBuzz - TDD Starter Project
+# TDD Starter Project
 
 Carthage Frameworks:
 Quick and Nimble
