@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F865AAB01E6F8D2000913FA9"
-               BuildableName = "FizzBuzz.app"
-               BlueprintName = "FizzBuzz"
-               ReferencedContainer = "container:FizzBuzz.xcodeproj">
+               BuildableName = "TDDStarter.app"
+               BlueprintName = "TDDStarter"
+               ReferencedContainer = "container:TDDStarter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F865AAC41E6F8D2000913FA9"
-               BuildableName = "FizzBuzzTests.xctest"
-               BlueprintName = "FizzBuzzTests"
-               ReferencedContainer = "container:FizzBuzz.xcodeproj">
+               BuildableName = "TDDStarterTests.xctest"
+               BlueprintName = "TDDStarterTests"
+               ReferencedContainer = "container:TDDStarter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F865AAB01E6F8D2000913FA9"
-            BuildableName = "FizzBuzz.app"
-            BlueprintName = "FizzBuzz"
-            ReferencedContainer = "container:FizzBuzz.xcodeproj">
+            BuildableName = "TDDStarter.app"
+            BlueprintName = "TDDStarter"
+            ReferencedContainer = "container:TDDStarter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F865AAB01E6F8D2000913FA9"
-            BuildableName = "FizzBuzz.app"
-            BlueprintName = "FizzBuzz"
-            ReferencedContainer = "container:FizzBuzz.xcodeproj">
+            BuildableName = "TDDStarter.app"
+            BlueprintName = "TDDStarter"
+            ReferencedContainer = "container:TDDStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F865AAB01E6F8D2000913FA9"
-            BuildableName = "FizzBuzz.app"
-            BlueprintName = "FizzBuzz"
-            ReferencedContainer = "container:FizzBuzz.xcodeproj">
+            BuildableName = "TDDStarter.app"
+            BlueprintName = "TDDStarter"
+            ReferencedContainer = "container:TDDStarter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

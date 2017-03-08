@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F865AAB51E6F8D2000913FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AAB41E6F8D2000913FA9 /* AppDelegate.swift */; };
-		F865AABA1E6F8D2000913FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F865AAB81E6F8D2000913FA9 /* Main.storyboard */; };
-		F865AABC1E6F8D2000913FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F865AABB1E6F8D2000913FA9 /* Assets.xcassets */; };
-		F865AABF1E6F8D2000913FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F865AABD1E6F8D2000913FA9 /* LaunchScreen.storyboard */; };
-		F865AAD71E6F8E2B00913FA9 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AAD61E6F8E2B00913FA9 /* FizzBuzz.swift */; };
-		F865AAD91E6F8E3F00913FA9 /* FizzBuzzSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AAD81E6F8E3F00913FA9 /* FizzBuzzSpec.swift */; };
 		F865AD691E6F90B600913FA9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F865AAE11E6F8F6200913FA9 /* Quick.framework */; };
 		F865AD6A1E6F90B900913FA9 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F865AADF1E6F8F6200913FA9 /* Nimble.framework */; };
+		F865AD6C1E6F96CB00913FA9 /* TDDStarterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AD6B1E6F96CB00913FA9 /* TDDStarterSpec.swift */; };
+		F865AD701E6F974E00913FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F865AAB81E6F8D2000913FA9 /* Main.storyboard */; };
+		F865AD711E6F975200913FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F865AABB1E6F8D2000913FA9 /* Assets.xcassets */; };
+		F865AD721E6F975500913FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F865AABD1E6F8D2000913FA9 /* LaunchScreen.storyboard */; };
+		F865AD761E6F97B400913FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AAB41E6F8D2000913FA9 /* AppDelegate.swift */; };
+		F865AD771E6F97B600913FA9 /* TDDStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865AAD61E6F8E2B00913FA9 /* TDDStarter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,24 +23,24 @@
 			containerPortal = F865AAA91E6F8D2000913FA9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F865AAB01E6F8D2000913FA9;
-			remoteInfo = FizzBuzz;
+			remoteInfo = TDDStarter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F865AAB11E6F8D2000913FA9 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F865AAB41E6F8D2000913FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F865AAB11E6F8D2000913FA9 /* TDDStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F865AAB41E6F8D2000913FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../TDDStarter/AppDelegate.swift; sourceTree = "<group>"; };
 		F865AAB91E6F8D2000913FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F865AABB1E6F8D2000913FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F865AABB1E6F8D2000913FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../TDDStarter/Assets.xcassets; sourceTree = "<group>"; };
 		F865AABE1E6F8D2000913FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F865AAC01E6F8D2000913FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F865AAC51E6F8D2000913FA9 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F865AACB1E6F8D2000913FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F865AAD61E6F8E2B00913FA9 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
-		F865AAD81E6F8E3F00913FA9 /* FizzBuzzSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzSpec.swift; sourceTree = "<group>"; };
+		F865AAC01E6F8D2000913FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TDDStarter/Info.plist; sourceTree = "<group>"; };
+		F865AAC51E6F8D2000913FA9 /* TDDStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F865AAD61E6F8E2B00913FA9 /* TDDStarter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TDDStarter.swift; path = ../TDDStarter/TDDStarter.swift; sourceTree = "<group>"; };
 		F865AADA1E6F8F2700913FA9 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		F865AADF1E6F8F6200913FA9 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		F865AAE11E6F8F6200913FA9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
+		F865AD6B1E6F96CB00913FA9 /* TDDStarterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDDStarterSpec.swift; sourceTree = "<group>"; };
+		F865AD6D1E6F96D500913FA9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				F865AADC1E6F8F6200913FA9 /* Carthage */,
-				F865AAB31E6F8D2000913FA9 /* FizzBuzz */,
-				F865AAC81E6F8D2000913FA9 /* FizzBuzzTests */,
+				F865AAB31E6F8D2000913FA9 /* TDDStarter */,
+				F865AAC81E6F8D2000913FA9 /* TDDStarterTests */,
 				F865AAB21E6F8D2000913FA9 /* Products */,
 				F865AADA1E6F8F2700913FA9 /* Cartfile */,
 			);
@@ -77,28 +77,29 @@
 		F865AAB21E6F8D2000913FA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F865AAB11E6F8D2000913FA9 /* FizzBuzz.app */,
-				F865AAC51E6F8D2000913FA9 /* FizzBuzzTests.xctest */,
+				F865AAB11E6F8D2000913FA9 /* TDDStarter.app */,
+				F865AAC51E6F8D2000913FA9 /* TDDStarterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F865AAB31E6F8D2000913FA9 /* FizzBuzz */ = {
+		F865AAB31E6F8D2000913FA9 /* TDDStarter */ = {
 			isa = PBXGroup;
 			children = (
 				F865AAD41E6F8DDC00913FA9 /* General */,
-				F865AAD61E6F8E2B00913FA9 /* FizzBuzz.swift */,
+				F865AAD61E6F8E2B00913FA9 /* TDDStarter.swift */,
 			);
-			path = FizzBuzz;
+			name = TDDStarter;
+			path = TDDStarterTests;
 			sourceTree = "<group>";
 		};
-		F865AAC81E6F8D2000913FA9 /* FizzBuzzTests */ = {
+		F865AAC81E6F8D2000913FA9 /* TDDStarterTests */ = {
 			isa = PBXGroup;
 			children = (
 				F865AAD51E6F8E0A00913FA9 /* General */,
-				F865AAD81E6F8E3F00913FA9 /* FizzBuzzSpec.swift */,
+				F865AD6B1E6F96CB00913FA9 /* TDDStarterSpec.swift */,
 			);
-			path = FizzBuzzTests;
+			path = TDDStarterTests;
 			sourceTree = "<group>";
 		};
 		F865AAD41E6F8DDC00913FA9 /* General */ = {
@@ -116,7 +117,7 @@
 		F865AAD51E6F8E0A00913FA9 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				F865AACB1E6F8D2000913FA9 /* Info.plist */,
+				F865AD6D1E6F96D500913FA9 /* Info.plist */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -149,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F865AAB01E6F8D2000913FA9 /* FizzBuzz */ = {
+		F865AAB01E6F8D2000913FA9 /* TDDStarter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F865AACE1E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "FizzBuzz" */;
+			buildConfigurationList = F865AACE1E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "TDDStarter" */;
 			buildPhases = (
 				F865AAAD1E6F8D2000913FA9 /* Sources */,
 				F865AAAE1E6F8D2000913FA9 /* Frameworks */,
@@ -161,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = FizzBuzz;
-			productName = FizzBuzz;
-			productReference = F865AAB11E6F8D2000913FA9 /* FizzBuzz.app */;
+			name = TDDStarter;
+			productName = TDDStarter;
+			productReference = F865AAB11E6F8D2000913FA9 /* TDDStarter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F865AAC41E6F8D2000913FA9 /* FizzBuzzTests */ = {
+		F865AAC41E6F8D2000913FA9 /* TDDStarterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F865AAD11E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */;
+			buildConfigurationList = F865AAD11E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "TDDStarterTests" */;
 			buildPhases = (
 				F865AAC11E6F8D2000913FA9 /* Sources */,
 				F865AAC21E6F8D2000913FA9 /* Frameworks */,
@@ -180,9 +181,9 @@
 			dependencies = (
 				F865AAC71E6F8D2000913FA9 /* PBXTargetDependency */,
 			);
-			name = FizzBuzzTests;
-			productName = FizzBuzzTests;
-			productReference = F865AAC51E6F8D2000913FA9 /* FizzBuzzTests.xctest */;
+			name = TDDStarterTests;
+			productName = TDDStarterTests;
+			productReference = F865AAC51E6F8D2000913FA9 /* TDDStarterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F865AAAC1E6F8D2000913FA9 /* Build configuration list for PBXProject "FizzBuzz" */;
+			buildConfigurationList = F865AAAC1E6F8D2000913FA9 /* Build configuration list for PBXProject "TDDStarter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F865AAB01E6F8D2000913FA9 /* FizzBuzz */,
-				F865AAC41E6F8D2000913FA9 /* FizzBuzzTests */,
+				F865AAB01E6F8D2000913FA9 /* TDDStarter */,
+				F865AAC41E6F8D2000913FA9 /* TDDStarterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F865AABF1E6F8D2000913FA9 /* LaunchScreen.storyboard in Resources */,
-				F865AABC1E6F8D2000913FA9 /* Assets.xcassets in Resources */,
-				F865AABA1E6F8D2000913FA9 /* Main.storyboard in Resources */,
+				F865AD721E6F975500913FA9 /* LaunchScreen.storyboard in Resources */,
+				F865AD701E6F974E00913FA9 /* Main.storyboard in Resources */,
+				F865AD711E6F975200913FA9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F865AAB51E6F8D2000913FA9 /* AppDelegate.swift in Sources */,
-				F865AAD71E6F8E2B00913FA9 /* FizzBuzz.swift in Sources */,
+				F865AD771E6F97B600913FA9 /* TDDStarter.swift in Sources */,
+				F865AD761E6F97B400913FA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F865AAD91E6F8E3F00913FA9 /* FizzBuzzSpec.swift in Sources */,
+				F865AD6C1E6F96CB00913FA9 /* TDDStarterSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +289,7 @@
 /* Begin PBXTargetDependency section */
 		F865AAC71E6F8D2000913FA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F865AAB01E6F8D2000913FA9 /* FizzBuzz */;
+			target = F865AAB01E6F8D2000913FA9 /* TDDStarter */;
 			targetProxy = F865AAC61E6F8D2000913FA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -300,6 +301,7 @@
 				F865AAB91E6F8D2000913FA9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../TDDStarter;
 			sourceTree = "<group>";
 		};
 		F865AABD1E6F8D2000913FA9 /* LaunchScreen.storyboard */ = {
@@ -308,6 +310,7 @@
 				F865AABE1E6F8D2000913FA9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../TDDStarter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FizzBuzz/Info.plist;
+				INFOPLIST_FILE = TDDStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.FizzBuzz;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.TDDStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,9 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FizzBuzz/Info.plist;
+				INFOPLIST_FILE = TDDStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.FizzBuzz;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.TDDStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -440,13 +443,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				INFOPLIST_FILE = TDDStarterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.FizzBuzzTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.TDDStarterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzz.app/FizzBuzz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDStarter.app/TDDStarter";
 			};
 			name = Debug;
 		};
@@ -460,19 +463,19 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				INFOPLIST_FILE = TDDStarterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.FizzBuzzTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.farshad.TDDStarterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzz.app/FizzBuzz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDStarter.app/TDDStarter";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F865AAAC1E6F8D2000913FA9 /* Build configuration list for PBXProject "FizzBuzz" */ = {
+		F865AAAC1E6F8D2000913FA9 /* Build configuration list for PBXProject "TDDStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F865AACC1E6F8D2000913FA9 /* Debug */,
@@ -481,21 +484,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F865AACE1E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "FizzBuzz" */ = {
+		F865AACE1E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "TDDStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F865AACF1E6F8D2000913FA9 /* Debug */,
 				F865AAD01E6F8D2000913FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F865AAD11E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
+		F865AAD11E6F8D2000913FA9 /* Build configuration list for PBXNativeTarget "TDDStarterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F865AAD21E6F8D2000913FA9 /* Debug */,
 				F865AAD31E6F8D2000913FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
