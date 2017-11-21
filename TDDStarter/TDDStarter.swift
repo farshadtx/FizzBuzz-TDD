@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Starter {
+    func print(_ isValid: Bool) -> String? {
+        return isValid ? "Hello World!" : nil
+    }
+}
